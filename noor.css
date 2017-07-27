@@ -1,0 +1,223 @@
+  body{
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+      
+  p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      }
+     
+      .link{
+          font-size: 16px;
+          color: #555555;
+      }
+      
+      .link:hover{
+          font-size: 16px;
+          color: #000000;
+          text-decoration: none;
+      }
+      
+      .img-circle{
+          margin-bottom: 20px;
+      }
+      
+  .bg-1 { 
+      background-color: #009688; 
+      color: #ffffff;
+  }
+      
+  .bg-2 { 
+      background-color: #23262c; 
+      color: #ffffff;
+  }
+      
+  .bg-3 { 
+      background-color: #ffffff; 
+      color: #555555;
+  }
+      
+  .bg-4 { 
+      background-color: #2f2f2f; 
+      color: #fff;
+  }
+      
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+      
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+      
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+      }
+      
+      .socialbtnsize
+        {
+            height: 54px;
+            width: 44px;
+        }
+        
+       .social-icon {
+     list-style: none;
+     padding-top: 20px;
+     text-align: center;
+     margin-bottom: 5px;
+}
+
+.social-icon li{
+  display: inline-block;
+  text-align: center;
+}
+
+.social-icon a {
+  display: block;
+  font-size: 17px;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social-icon a {
+  background: rgba(255, 255, 255, 0.85);
+  color: #000;
+    transition: 0.45s linear color;
+}
+
+.social-icon a:hover {
+  background: rgba(255, 255, 255, 0.25); 
+  color: #fff; 
+}
+      .text{
+          text-align: justify;
+      }
+      
+        #toppage{
+            color: #999;
+            text-decoration: none;
+        }
+        
+        #toppage:hover{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        #toppage:active{
+            color: #f1f8ff;
+            text-decoration: none;
+        }
+      .pull-right{
+          margin-right: 40px;
+      }
+      .size{
+             margin-left: 5.5em;
+             margin-bottom: 10px;
+             height: 9em;
+      }
+      .btm{
+          margin-bottom: 10px;
+      }
+      .margin{
+          margin-bottom: 0px;
+      }
+      
+      .bird{
+          height: 230px;
+      }
+      
+      
+      @media only screen and (min-device-width : 20px) and (max-width: 479px){
+          p{
+              font-size: 15px;
+              margin-top: 2em;
+          }
+          
+          h3{
+              font-size: 30px;
+          }
+          
+          .img-circle{
+              height: 8em;
+              width: 11em;
+		  } }        
+
+#ScrollToTop{
+    font-size: 2em;
+    color: #009688;
+    right: 40px;
+    bottom: 10%;
+    position: fixed;
+    transition: all 0.5 ease;
+}
+
+#ScrollToTop:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5 ease;
+	cursor: pointer;
+}
+
+.hide{
+    transform: scale(0,0);
+}
+		    .footer{
+           border-right: 2px;
+           border-right-style: solid;
+           margin-right: 5px;
+        }
+.social{
+       background-color: #000;
+       position: relative;
+       height: auto;
+       width: 100%;
+        }
+.copyright {
+    font-size: 11px;
+    display: inline-block;
+	margin-left: 46.5%;
+	color: #eeeeee;
+	padding-bottom: 2%;
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
